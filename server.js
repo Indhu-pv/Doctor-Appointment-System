@@ -3,6 +3,8 @@ const colors = require("colors");
 const moragan = require("morgan");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
+require("dotenv").config();
+
 
 //dotenv conig
 dotenv.config();
@@ -23,7 +25,7 @@ app.use("/api/v1/admin", require("./routes/adminRoutes"));
 app.use("/api/v1/doctor", require("./routes/doctorRoutes"));
 
 //port
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 //listen port
 app.listen(port, () => {
   console.log(

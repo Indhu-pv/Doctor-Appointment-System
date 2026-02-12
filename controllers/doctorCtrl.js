@@ -76,7 +76,7 @@ const doctorAppointmentsController = async (req, res) => {
     res.status(500).send({
       success: false,
       error,
-      message: "Error in Doc Appointments",
+      message: "Error in SHASH Appointments",
     });
   }
 };
