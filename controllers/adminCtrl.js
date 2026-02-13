@@ -6,7 +6,7 @@ const getAllUsersController = async (req, res) => {
     const users = await userModel.find({});
     res.status(200).send({
       success: true,
-      message: "users data list",
+      message: "users data list", 
       data: users,
     });
   } catch (error) {
