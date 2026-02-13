@@ -11,7 +11,7 @@ const {
   bookingAvailabilityController,
   userAppointmentsController,
 } = require("../controllers/userCtrl");
-const authMiddleware = require("../middlewares/authMiddleware");
+const authMiddleware = require("../middlewares/authMiddleware"); 
 
 //router onject
 const router = express.Router();
