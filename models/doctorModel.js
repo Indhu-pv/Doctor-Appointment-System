@@ -4,7 +4,7 @@ const doctorSchema = new mongoose.Schema(
   {
     userId: {
       type: String,
-    },
+    }, 
     firstName: {
       type: String,
       required: [true, "first name is required"],
