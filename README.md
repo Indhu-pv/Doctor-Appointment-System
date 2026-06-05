@@ -29,5 +29,5 @@ This project is a full-stack web application built using the MERN stack (MongoDB
 ## Usage:
 
 1. Open the application in your web browser (usually at http://localhost:3000).
-2. Register as a patient or doctor (or use existing accounts if available).
+2. Register as a patient or doctor (or we can use existing accounts if available).
 3. Explore the features and functionality as needed.
